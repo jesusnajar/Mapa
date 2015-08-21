@@ -10,6 +10,7 @@
 #import "Declarations.h"
 #import "cellMapa.h"
 #import "Start.h"
+#import <Google/Analytics.h>
 
 @import GoogleMaps;
 
@@ -22,6 +23,20 @@
 @implementation MapaViewController{
  
     GMSMapView *mapView;
+}
+
+- (void)viewWillAppear:(BOOL)animated // new
+{
+    NSLog(@"viewDidAppear");
+    [super viewDidAppear:animated];
+    
+    
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    
+    [tracker set:kGAIScreenName value:@"Mapa-MapaViewController"];
+    
+    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
+    
 }
 
 - (void)viewDidLoad {

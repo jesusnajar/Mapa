@@ -10,6 +10,8 @@
 #import "Declarations.h"
 #import "cellMapa.h"
 #import "MapaViewController.h"
+ #import <Google/Analytics.h>
+#import "GAI.h"
 
 @interface Start ()
 
@@ -27,9 +29,32 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-/*
--(void)viewWillAppear:(BOOL)animated {
+
+- (void)viewWillAppear:(BOOL)animated // new
+{
+    NSLog(@"viewDidAppear");
+    [super viewDidAppear:animated];
+    
+    [self.tblStart reloadData];
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    [tracker set:kGAIScreenName value:@"Mapa-Start"];
+    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
+    
+}
+
+
+/*-(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    // Initialize a tracker using a Google Analytics property ID.
+    [[GAI sharedInstance] trackerWithTrackingId:@"UA-30831480-3"];
+    
+    id<GAITracker> tracker = [[GAI sharedInstance] trackerWithTrackingId:@"UA-30831480-3"];
+    
+    NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:
+                            @"appview", kGAIHitType, @"Mapa:Start", kGAIScreenName, nil];
+    [tracker send:params];
+    
+   
     id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
     [tracker set:kGAIScreenName value:@"Mapa:Start"];
     [tracker send:[[GAIDictionaryBuilder createScreenView] build]];

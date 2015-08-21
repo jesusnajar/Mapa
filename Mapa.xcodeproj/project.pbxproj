@@ -22,6 +22,11 @@
 		892ACE311B86F15E0015FE3C /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 892ACE301B86F15E0015FE3C /* Declarations.m */; };
 		892ACE331B86F9E20015FE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892ACE321B86F9E20015FE3C /* Foundation.framework */; };
 		892ACE351B86F9E80015FE3C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892ACE341B86F9E80015FE3C /* CoreFoundation.framework */; };
+		892ACE391B870BE90015FE3C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 892ACE381B870BE90015FE3C /* GoogleService-Info.plist */; };
+		892ACE3B1B87126D0015FE3C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 892ACE3A1B87126D0015FE3C /* libz.dylib */; };
+		892ACE3D1B8712800015FE3C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892ACE3C1B8712800015FE3C /* SystemConfiguration.framework */; };
+		892ACE3F1B8712940015FE3C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 892ACE3E1B8712940015FE3C /* libsqlite3.dylib */; };
+		892ACE411B8712F90015FE3C /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 892ACE401B8712F90015FE3C /* libGoogleAnalytics.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,11 @@
 		892ACE301B86F15E0015FE3C /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
 		892ACE321B86F9E20015FE3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		892ACE341B86F9E80015FE3C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		892ACE381B870BE90015FE3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Mapa/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		892ACE3A1B87126D0015FE3C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		892ACE3C1B8712800015FE3C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		892ACE3E1B8712940015FE3C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		892ACE401B8712F90015FE3C /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = Pods/GoogleAnalytics/Libraries/libGoogleAnalytics.a; sourceTree = "<group>"; };
 		A9BA8C1E122DDAAE37C8E5E1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892ACE411B8712F90015FE3C /* libGoogleAnalytics.a in Frameworks */,
+				892ACE3F1B8712940015FE3C /* libsqlite3.dylib in Frameworks */,
+				892ACE3D1B8712800015FE3C /* SystemConfiguration.framework in Frameworks */,
+				892ACE3B1B87126D0015FE3C /* libz.dylib in Frameworks */,
 				892ACE351B86F9E80015FE3C /* CoreFoundation.framework in Frameworks */,
 				892ACE331B86F9E20015FE3C /* Foundation.framework in Frameworks */,
 				35C070AD5E05790B41F48D8A /* libPods.a in Frameworks */,
@@ -96,6 +110,7 @@
 		892ACDF21B86EA2B0015FE3C = {
 			isa = PBXGroup;
 			children = (
+				892ACE381B870BE90015FE3C /* GoogleService-Info.plist */,
 				892ACDFD1B86EA2B0015FE3C /* Mapa */,
 				892ACE1A1B86EA2B0015FE3C /* MapaTests */,
 				892ACDFC1B86EA2B0015FE3C /* Products */,
@@ -165,6 +180,10 @@
 		B8458BFD57B39CF78FED8CDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				892ACE401B8712F90015FE3C /* libGoogleAnalytics.a */,
+				892ACE3E1B8712940015FE3C /* libsqlite3.dylib */,
+				892ACE3C1B8712800015FE3C /* SystemConfiguration.framework */,
+				892ACE3A1B87126D0015FE3C /* libz.dylib */,
 				892ACE341B86F9E80015FE3C /* CoreFoundation.framework */,
 				892ACE321B86F9E20015FE3C /* Foundation.framework */,
 				56D6B55A32330863E8FF2EBD /* libPods.a */,
@@ -256,6 +275,7 @@
 			files = (
 				892ACE2E1B86F05E0015FE3C /* cellMapa.xib in Resources */,
 				892ACE0D1B86EA2B0015FE3C /* Main.storyboard in Resources */,
+				892ACE391B870BE90015FE3C /* GoogleService-Info.plist in Resources */,
 				892ACE121B86EA2B0015FE3C /* LaunchScreen.xib in Resources */,
 				892ACE0F1B86EA2B0015FE3C /* Images.xcassets in Resources */,
 			);
@@ -443,6 +463,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mapa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleAnalytics/Libraries",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -454,6 +478,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mapa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleAnalytics/Libraries",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
