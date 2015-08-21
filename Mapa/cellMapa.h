@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  cellMapa.h
 //  Mapa
 //
 //  Created by 0x00 on 21/08/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface cellMapa : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *lblPais;
 
 
 @end
-

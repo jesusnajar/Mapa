@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35C070AD5E05790B41F48D8A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D6B55A32330863E8FF2EBD /* libPods.a */; };
 		892ACE011B86EA2B0015FE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 892ACE001B86EA2B0015FE3C /* main.m */; };
 		892ACE041B86EA2B0015FE3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 892ACE031B86EA2B0015FE3C /* AppDelegate.m */; };
 		892ACE071B86EA2B0015FE3C /* Mapa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 892ACE051B86EA2B0015FE3C /* Mapa.xcdatamodeld */; };
-		892ACE0A1B86EA2B0015FE3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 892ACE091B86EA2B0015FE3C /* ViewController.m */; };
+		892ACE0A1B86EA2B0015FE3C /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 892ACE091B86EA2B0015FE3C /* Start.m */; };
 		892ACE0D1B86EA2B0015FE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892ACE0B1B86EA2B0015FE3C /* Main.storyboard */; };
 		892ACE0F1B86EA2B0015FE3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892ACE0E1B86EA2B0015FE3C /* Images.xcassets */; };
 		892ACE121B86EA2B0015FE3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 892ACE101B86EA2B0015FE3C /* LaunchScreen.xib */; };
 		892ACE1E1B86EA2B0015FE3C /* MapaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 892ACE1D1B86EA2B0015FE3C /* MapaTests.m */; };
+		892ACE291B86F03D0015FE3C /* MapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 892ACE281B86F03D0015FE3C /* MapaViewController.m */; };
+		892ACE2D1B86F05E0015FE3C /* cellMapa.m in Sources */ = {isa = PBXBuildFile; fileRef = 892ACE2B1B86F05E0015FE3C /* cellMapa.m */; };
+		892ACE2E1B86F05E0015FE3C /* cellMapa.xib in Resources */ = {isa = PBXBuildFile; fileRef = 892ACE2C1B86F05E0015FE3C /* cellMapa.xib */; };
+		892ACE311B86F15E0015FE3C /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 892ACE301B86F15E0015FE3C /* Declarations.m */; };
+		892ACE331B86F9E20015FE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892ACE321B86F9E20015FE3C /* Foundation.framework */; };
+		892ACE351B86F9E80015FE3C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892ACE341B86F9E80015FE3C /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +35,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56D6B55A32330863E8FF2EBD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6A35B6EDB95DB023254BF7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		892ACDFB1B86EA2B0015FE3C /* Mapa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		892ACDFF1B86EA2B0015FE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		892ACE001B86EA2B0015FE3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		892ACE021B86EA2B0015FE3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		892ACE031B86EA2B0015FE3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		892ACE061B86EA2B0015FE3C /* Mapa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mapa.xcdatamodel; sourceTree = "<group>"; };
-		892ACE081B86EA2B0015FE3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		892ACE091B86EA2B0015FE3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		892ACE081B86EA2B0015FE3C /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		892ACE091B86EA2B0015FE3C /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		892ACE0C1B86EA2B0015FE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		892ACE0E1B86EA2B0015FE3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		892ACE111B86EA2B0015FE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		892ACE171B86EA2B0015FE3C /* MapaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		892ACE1C1B86EA2B0015FE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		892ACE1D1B86EA2B0015FE3C /* MapaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapaTests.m; sourceTree = "<group>"; };
+		892ACE271B86F03D0015FE3C /* MapaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaViewController.h; sourceTree = "<group>"; };
+		892ACE281B86F03D0015FE3C /* MapaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaViewController.m; sourceTree = "<group>"; };
+		892ACE2A1B86F05E0015FE3C /* cellMapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMapa.h; sourceTree = "<group>"; };
+		892ACE2B1B86F05E0015FE3C /* cellMapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMapa.m; sourceTree = "<group>"; };
+		892ACE2C1B86F05E0015FE3C /* cellMapa.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMapa.xib; sourceTree = "<group>"; };
+		892ACE2F1B86F15E0015FE3C /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		892ACE301B86F15E0015FE3C /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		892ACE321B86F9E20015FE3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		892ACE341B86F9E80015FE3C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A9BA8C1E122DDAAE37C8E5E1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892ACE351B86F9E80015FE3C /* CoreFoundation.framework in Frameworks */,
+				892ACE331B86F9E20015FE3C /* Foundation.framework in Frameworks */,
+				35C070AD5E05790B41F48D8A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83B07BE5F687A88503EC24D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9BA8C1E122DDAAE37C8E5E1 /* Pods.debug.xcconfig */,
+				5B6A35B6EDB95DB023254BF7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		892ACDF21B86EA2B0015FE3C = {
 			isa = PBXGroup;
 			children = (
 				892ACDFD1B86EA2B0015FE3C /* Mapa */,
 				892ACE1A1B86EA2B0015FE3C /* MapaTests */,
 				892ACDFC1B86EA2B0015FE3C /* Products */,
+				83B07BE5F687A88503EC24D4 /* Pods */,
+				B8458BFD57B39CF78FED8CDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,13 +118,20 @@
 			children = (
 				892ACE021B86EA2B0015FE3C /* AppDelegate.h */,
 				892ACE031B86EA2B0015FE3C /* AppDelegate.m */,
-				892ACE081B86EA2B0015FE3C /* ViewController.h */,
-				892ACE091B86EA2B0015FE3C /* ViewController.m */,
+				892ACE081B86EA2B0015FE3C /* Start.h */,
+				892ACE091B86EA2B0015FE3C /* Start.m */,
 				892ACE0B1B86EA2B0015FE3C /* Main.storyboard */,
 				892ACE0E1B86EA2B0015FE3C /* Images.xcassets */,
 				892ACE101B86EA2B0015FE3C /* LaunchScreen.xib */,
 				892ACE051B86EA2B0015FE3C /* Mapa.xcdatamodeld */,
 				892ACDFE1B86EA2B0015FE3C /* Supporting Files */,
+				892ACE271B86F03D0015FE3C /* MapaViewController.h */,
+				892ACE281B86F03D0015FE3C /* MapaViewController.m */,
+				892ACE2A1B86F05E0015FE3C /* cellMapa.h */,
+				892ACE2B1B86F05E0015FE3C /* cellMapa.m */,
+				892ACE2C1B86F05E0015FE3C /* cellMapa.xib */,
+				892ACE2F1B86F15E0015FE3C /* Declarations.h */,
+				892ACE301B86F15E0015FE3C /* Declarations.m */,
 			);
 			path = Mapa;
 			sourceTree = "<group>";
@@ -122,6 +162,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B8458BFD57B39CF78FED8CDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				892ACE341B86F9E80015FE3C /* CoreFoundation.framework */,
+				892ACE321B86F9E20015FE3C /* Foundation.framework */,
+				56D6B55A32330863E8FF2EBD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 892ACE211B86EA2B0015FE3C /* Build configuration list for PBXNativeTarget "Mapa" */;
 			buildPhases = (
+				D1FE95A9E897F791F4B7EB52 /* Check Pods Manifest.lock */,
 				892ACDF71B86EA2B0015FE3C /* Sources */,
 				892ACDF81B86EA2B0015FE3C /* Frameworks */,
 				892ACDF91B86EA2B0015FE3C /* Resources */,
+				CD26A84EB3DE7B9D819429FC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892ACE2E1B86F05E0015FE3C /* cellMapa.xib in Resources */,
 				892ACE0D1B86EA2B0015FE3C /* Main.storyboard in Resources */,
 				892ACE121B86EA2B0015FE3C /* LaunchScreen.xib in Resources */,
 				892ACE0F1B86EA2B0015FE3C /* Images.xcassets in Resources */,
@@ -217,14 +270,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CD26A84EB3DE7B9D819429FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1FE95A9E897F791F4B7EB52 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		892ACDF71B86EA2B0015FE3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				892ACE041B86EA2B0015FE3C /* AppDelegate.m in Sources */,
+				892ACE291B86F03D0015FE3C /* MapaViewController.m in Sources */,
+				892ACE2D1B86F05E0015FE3C /* cellMapa.m in Sources */,
+				892ACE311B86F15E0015FE3C /* Declarations.m in Sources */,
 				892ACE011B86EA2B0015FE3C /* main.m in Sources */,
-				892ACE0A1B86EA2B0015FE3C /* ViewController.m in Sources */,
+				892ACE0A1B86EA2B0015FE3C /* Start.m in Sources */,
 				892ACE071B86EA2B0015FE3C /* Mapa.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +438,7 @@
 		};
 		892ACE221B86EA2B0015FE3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9BA8C1E122DDAAE37C8E5E1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mapa/Info.plist;
@@ -359,6 +449,7 @@
 		};
 		892ACE231B86EA2B0015FE3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6A35B6EDB95DB023254BF7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mapa/Info.plist;
@@ -420,6 +511,7 @@
 				892ACE231B86EA2B0015FE3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		892ACE241B86EA2B0015FE3C /* Build configuration list for PBXNativeTarget "MapaTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +520,7 @@
 				892ACE261B86EA2B0015FE3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
